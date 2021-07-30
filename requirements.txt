@@ -1,0 +1,5 @@
+torch
+git+https://github.com/minerllabs/minerl
+gym
+tqdm
+opencv-python
