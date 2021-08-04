@@ -87,7 +87,10 @@ def environment_action_batch_to_agent_actions(dataset_actions):
     batch_size = len(dataset_actions["camera"])
     actions = np.zeros((batch_size,), dtype=np.int)
 
-    for i in range(len(camera_actions)):
+    for i in range(batch_size):
+        # TODO this will make all actions invalid. Replace with something
+        # more clever
+        actions[i] = -1
         raise NotImplementedError("TODO map dataset action at index i to an agent action, or if no mapping, -1")
     return actions
 
