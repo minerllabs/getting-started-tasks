@@ -44,13 +44,15 @@ class ConvNet(nn.Module):
         raise NotImplementedError("TODO implement forward function of the neural network")
 
 
-def agent_action_to_environment(agent_action):
+def agent_action_to_environment(noop_action, agent_action):
     """
     Turn an agent action (an integer) into an environment action.
-
     This should match `environment_action_batch_to_agent_actions`,
     e.g. if attack=1 action was mapped to agent_action=0, then agent_action=0
-    should be mapped back to attack=1
+    should be mapped back to attack=1.
+
+    noop_action is a MineRL action that does nothing. You may want to
+    use this as a template for the action you return.
     """
     raise NotImplementedError("TODO implement agent_action_to_environment (see docstring)")
 
@@ -105,7 +107,8 @@ def train():
 
     # TODO create data iterators for going over MineRL data using BufferedBatchIterator
     #      https://minerl.readthedocs.io/en/latest/tutorials/data_sampling.html#sampling-the-dataset-with-buffered-batch-iter
-    #      Store 
+    #      NOTE: You have to download the Treechop dataset first for this to work, see:
+    #           https://minerl.readthedocs.io/en/latest/tutorials/data_sampling.html#downloading-the-minerl-dataset-with-minerl-data-download
     raise NotImplementedError("TODO create dataset samplers")
     iterator = None
 
@@ -118,6 +121,7 @@ def train():
     #      see examples here https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html
     raise NotImplementedError("TODO Create an optimizer and a loss function.")
     optimizer = None
+    loss_function = None
 
     iter_count = 0
     losses = []
@@ -176,6 +180,7 @@ def enjoy():
             #   - Transpose image (needs to be channels-last)
             #   - Normalize image
             #   - Store network output to `logits`
+            # For hints, see what preprocessing was done during training
             raise NotImplementedError("TODO process the observation and run it through network")
             logits = None
             # Turn logits into probabilities
@@ -190,7 +195,8 @@ def enjoy():
             # Option 2 works better emperically.
             agent_action = None
 
-            environment_action = agent_action_to_environment(agent_action)
+            noop_action = env.action_space.noop_action()
+            environment_action = agent_action_to_environment(noop_action, agent_action)
 
             obs, reward, done, info = env.step(environment_action)
             reward_sum += reward
