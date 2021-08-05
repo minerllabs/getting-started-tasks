@@ -195,7 +195,7 @@ def enjoy():
             # Option 2 works better emperically.
             agent_action = None
 
-            noop_action = env.action_space.noop_action()
+            noop_action = env.action_space.noop()
             environment_action = agent_action_to_environment(noop_action, agent_action)
 
             obs, reward, done, info = env.step(environment_action)
