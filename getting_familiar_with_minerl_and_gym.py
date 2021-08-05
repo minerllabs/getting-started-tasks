@@ -23,7 +23,7 @@ Now that you know how CartPole-v0 works, change to "MineRLObtainDiamond-v0", rep
 
 def render(observation, environment):
     """A function for rendering MineRL environments. You do not need to worry about this function"""
-    if isinstance(environment.unwrapped.env, minerl.env._singleagent._SingleAgentEnv):
+    if isinstance(environment.unwrapped, minerl.env._singleagent._SingleAgentEnv):
         # Environment is a MineRL one, use OpenCV image showing to show image
         # Make it larger for easier reading
         image = observation["pov"]
