@@ -166,7 +166,7 @@ def enjoy():
     # Load up the trained network
     network = th.load("behavioural_cloning.pth").cuda()
 
-    env = gym.make('MineRLTreechop-v0', video_record_path="videos")
+    env = gym.make('MineRLTreechop-v0')
 
     # Play 10 games with the model
     for game_i in range(10):
