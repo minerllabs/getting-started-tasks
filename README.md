@@ -19,7 +19,7 @@ Stars indicate the difficulty of the task. Click the task to see more details.
   * Check out `getting_familiar_with_minerl_and_gym.py` and follow the instructions to get familiar with the agent-environment (Gym) API.
   * You can find the latter task on Colab [here](https://colab.research.google.com/drive/11CVCeb7f0P2nqcgWGLG1wDZcE3AxngxL?usp=sharing).
 
-**:star: Improve Intro baseline of the Diamond competition.**
+**:star::star: Improve Intro baseline of the Diamond competition.**
   * Step-by-step instructions on how to improve a simple, fully-scripted agent for obtaining wood and stone in the MineRLObtainDiamond-v0 task.
   * Start out by [opening this document](https://docs.google.com/document/d/12d0jMnsoR5xjyye4Rlpo84yJOZRMbfSYOb17OWOJdFw/edit) and following the instructions.
   * If you are overwhelmingly stuck, you may look for reference answers [from this documentation](https://docs.google.com/document/d/1Q9xWoi06h7oL_XXjMLlvkRe626bTjwXupE-LFztRbNU/edit?usp=sharing).
