@@ -22,7 +22,7 @@ Stars indicate the difficulty of the task. Click the task to see more details.
 **:star: Improve Intro baseline of the Diamond competition.**
   * Step-by-step instructions on how to improve a simple, fully-scripted agent for obtaining wood and stone in the MineRLObtainDiamond-v0 task.
   * Start out by [opening this document](https://docs.google.com/document/d/12d0jMnsoR5xjyye4Rlpo84yJOZRMbfSYOb17OWOJdFw/edit) and following the instructions.
-</details>
+  * If you are overwhelmingly stuck, you may look for reference answers [from this documentation](https://docs.google.com/document/d/1Q9xWoi06h7oL_XXjMLlvkRe626bTjwXupE-LFztRbNU/edit?usp=sharing).
 
 **:star::star: Implementing behavioural cloning from (almost) scratch.**
   * Start by opening up `behavioural_cloning.py` and following the instructions at the beginning of the file.
@@ -37,3 +37,8 @@ Stars indicate the difficulty of the task. Click the task to see more details.
 **:star::star::star: Improve Research baseline of the Diamond competition.**
   * Similar to the second task here, but in a more difficult setting where you may not manually encode actions.
   * Get started by opening [this documentation](https://docs.google.com/document/d/1BxKAFZN1-qfc83GjVYMdsJamU01sngn2LlreuvdxWu0/edit?usp=sharing).
+  * Once done, you can check reference answers [from here](https://docs.google.com/document/d/1p6V3fvLAy8psQPs-v3JXrzBjM8PD_CUi_XBH-1v4qUg/edit?usp=sharing).
+
+**:star::star::star: Useful utilities for the BASALT 2021 competition.**
+  * A collection and a walkthrough of approaches and methods that are useful for the [BASALT competition](https://www.aicrowd.com/challenges/neurips-2021-minerl-basalt-competition) (learning without rewards).
+  * Get started by opening [this Colab](https://colab.research.google.com/drive/1MtMaNd23mToUvzPnHx4LFmNDseaOTZ_X).
