@@ -27,7 +27,7 @@ Stars indicate the difficulty of the task. Click the task to see more details.
 **:star::star: Implementing behavioural cloning from (almost) scratch.**
   * Start by opening up `behavioural_cloning.py` and following the instructions at the beginning of the file.
   * You can also find the task on Colab [here](https://colab.research.google.com/drive/1JQ9suwMe-TnyBoDjhdydI6Ic35-m6NLh?usp=sharing).
-  * You can find a crude reference answers [in this Colab notebook](https://colab.research.google.com/drive/1JQ9suwMe-TnyBoDjhdydI6Ic35-m6NLh?usp=sharing).
+  * You can find a crude reference answers [in this Colab notebook](https://colab.research.google.com/drive/1rap2ROcbN2jNEutj5ciIA_kip4a1r7HU?usp=sharing).
   This task is built on the [BC + scripted baseline solution](https://github.com/KarolisRam/MineRL2021-Intro-baselines/blob/main/standalone/BC_plus_script.py).
 
 **:star::star::star: Learn how to use stable-baselines and imitation libraries with MineRL.**
