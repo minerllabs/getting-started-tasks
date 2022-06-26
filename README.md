@@ -1,5 +1,7 @@
 # Tasks for getting started with MineRL
 
+**Note**: These were designed for MineRL v0.4 and the code examples may not work on MineRL  v1.0.
+
 This repository contains examples and small tasks on getting
 started with MineRL environment.
 
