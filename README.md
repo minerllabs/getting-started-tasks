@@ -34,7 +34,7 @@ Stars indicate the difficulty of the task. Click the task to see more details.
 
 **:star::star::star: Learn how to use stable-baselines and imitation libraries with MineRL.**
   * This walk-through demonstrates how to combine well-established reinforcement learning ([stable-baselines3](https://github.com/DLR-RM/stable-baselines3)) and imitation learning ([imitation](https://github.com/HumanCompatibleAI/imitation)) libraries with MineRL to train more sophisticated agents.
-  * Start by opening [this Colab link](https://colab.research.google.com/drive/13_jI8YLk9ATRQSd7_3rV5rOsll7jsSz0).
+  * Start by opening [this Colab link](https://colab.research.google.com/drive/13_jI8YLk9ATRQSd7_3rV5rOsll7jsSz0) (NOTE 6.1.2025: This colab link is known to be dead).
 
 **:star::star::star: Improve Research baseline of the Diamond competition.**
   * Similar to the second task here, but in a more difficult setting where you may not manually encode actions.
